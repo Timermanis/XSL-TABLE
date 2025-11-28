@@ -1,0 +1,16 @@
+{
+  "configurations": [
+    {
+      "type": "xslt",
+      "request": "launch",
+      "name": "Debug XSLT File",
+      "xslPath": "C:/xml/test1_Copy3/my_transform.xsl",
+      "sourcePath": "C:/xml/test1_Copy3/my_input.xml",
+      "destinationPath": "C:/xml/test1_Copy3/my_output.xml",
+      "parameters": {
+        "theseAreOptional": true,
+        "andCanBeOmmittedIfYou": "do not use them"
+      }
+    }
+  ]
+}

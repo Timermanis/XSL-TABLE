@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<?xml-stylesheet type="text/xsl" href="cdcatalog.xsl"?>
+<customers>
+    <customer CustomerID="GREAL">
+        <name>Jo Ellis
+        </name>
+        <town>Edinburgh
+        </town>
+        <address>
+            100 Main Street
+        </address>
+        <text>
+            qwerty uiop asdfgh jklzxcvbnm
+        </text>
+    </customer>
+    <customer CustomerID="TIMJA">
+        <name>Janis Timermanis
+        </name>
+        <town>Edinburgh
+        </town>
+        <address>
+            18 Woodbine Terrace
+        </address>
+        <text>
+            asdffghjkl qwertyuiop zxcvbnm
+        </text>
+    </customer>
+</customers>
