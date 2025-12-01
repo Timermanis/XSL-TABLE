@@ -12,13 +12,13 @@
         <fo:block font-family="sans-serif" font-size="12pt" font-weight="bold" space-after="0.2cm">Jo Ellis</fo:block>
         <fo:block font-family="sans-serif" font-size="12pt" font-weight="bold" text-align="center" space-after="0.2cm">qwerty uiop asdfgh jklzxcvbnm</fo:block>
         <fo:block>
-          <fo:table width="110mm" border-style="ridge" border-width="5pt">       (1)                        
+          <fo:table width="110mm" border-style="ridge" border-width="1pt">       (1)                        
           <fo:table-body>                                                     (2)
             <fo:table-row>                                                   (3)
-              <fo:table-cell width="40mm" border-style="solid" border-width="1pt"> (4)
+              <fo:table-cell width="40mm" border-style="solid" border-width="1pt" border-color="red"> (4)
                 <fo:block>Jo Ellis</fo:block></fo:table-cell><fo:table-cell width="40mm" border-style="solid" border-width="1pt"> (4)
                 <fo:block>Edinburgh</fo:block></fo:table-cell><fo:table-cell width="30mm" border-style="solid" border-width="1pt"> (4)
-                <fo:block> 3. Zelle</fo:block></fo:table-cell></fo:table-row>                                                 (3)
+                <fo:block>100 Main Street</fo:block></fo:table-cell></fo:table-row>                                                 (3)
             <fo:table-row><fo:table-cell border-style="solid" border-width="1pt">      (5)
                 <fo:block> 1. Zelle</fo:block></fo:table-cell></fo:table-row></fo:table-body></fo:table>
         </fo:block>
@@ -27,13 +27,13 @@
         <fo:block font-family="sans-serif" font-size="12pt" font-weight="bold" space-after="0.2cm">Janis Timermanis</fo:block>
         <fo:block font-family="sans-serif" font-size="12pt" font-weight="bold" text-align="center" space-after="0.2cm">asdffghjkl qwertyuiop zxcvbnm</fo:block>
         <fo:block>
-          <fo:table width="110mm" border-style="ridge" border-width="5pt">       (1)                        
+          <fo:table width="110mm" border-style="ridge" border-width="1pt">       (1)                        
           <fo:table-body>                                                     (2)
             <fo:table-row>                                                   (3)
-              <fo:table-cell width="40mm" border-style="solid" border-width="1pt"> (4)
+              <fo:table-cell width="40mm" border-style="solid" border-width="1pt" border-color="red"> (4)
                 <fo:block>Janis Timermanis</fo:block></fo:table-cell><fo:table-cell width="40mm" border-style="solid" border-width="1pt"> (4)
                 <fo:block>Edinburgh</fo:block></fo:table-cell><fo:table-cell width="30mm" border-style="solid" border-width="1pt"> (4)
-                <fo:block> 3. Zelle</fo:block></fo:table-cell></fo:table-row>                                                 (3)
+                <fo:block>18 Woodbine Terrace</fo:block></fo:table-cell></fo:table-row>                                                 (3)
             <fo:table-row><fo:table-cell border-style="solid" border-width="1pt">      (5)
                 <fo:block> 1. Zelle</fo:block></fo:table-cell></fo:table-row></fo:table-body></fo:table>
         </fo:block>

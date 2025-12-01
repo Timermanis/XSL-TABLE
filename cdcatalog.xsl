@@ -38,17 +38,17 @@
         <xsl:value-of select="normalize-space(text)"/>
       </fo:block>
       <fo:block>
-        <fo:table width="110mm" border-style="ridge" border-width="5pt">       (1)                        
+        <fo:table width="110mm" border-style="ridge" border-width="1pt">       (1)                        
           <fo:table-body>                                                     (2)
             <fo:table-row>                                                   (3)
-              <fo:table-cell width="40mm" border-style="solid" border-width="1pt"> (4)
+              <fo:table-cell width="40mm" border-style="solid" border-width="1pt" border-color="red"> (4)
                 <fo:block>  <xsl:value-of select="normalize-space(name)"/></fo:block>                         
               </fo:table-cell>                         
               <fo:table-cell width="40mm" border-style="solid" border-width="1pt"> (4)
                 <fo:block> <xsl:value-of select="normalize-space(town)"/></fo:block>
               </fo:table-cell>
               <fo:table-cell width="30mm" border-style="solid" border-width="1pt"> (4)
-                <fo:block> 3. Zelle</fo:block>                         
+                <fo:block> <xsl:value-of select="normalize-space(address)"/></fo:block>                         
               </fo:table-cell>                         
             </fo:table-row>                                                 (3)
             <fo:table-row>
