@@ -38,21 +38,21 @@
         <xsl:value-of select="normalize-space(text)"/>
       </fo:block>
       <fo:block>
-        <fo:table width="110mm" border-style="ridge" border-width="1pt">       (1)                        
-          <fo:table-body>                                                     (2)
-            <fo:table-row>                                                   (3)
-              <fo:table-cell width="40mm" border-style="solid" border-width="1pt" border-color="red"> (4)
+        <fo:table width="110mm" border-style="ridge" border-width="1pt">                            
+          <fo:table-body>                                                     
+            <fo:table-row>                                                   
+              <fo:table-cell width="40mm" border-style="solid" border-width="1pt" border-color="red"> 
                 <fo:block>  <xsl:value-of select="normalize-space(name)"/></fo:block>                         
               </fo:table-cell>                         
-              <fo:table-cell width="40mm" border-style="solid" border-width="1pt"> (4)
+              <fo:table-cell width="40mm" border-style="solid" border-width="1pt"> 
                 <fo:block> <xsl:value-of select="normalize-space(town)"/></fo:block>
               </fo:table-cell>
-              <fo:table-cell width="30mm" border-style="solid" border-width="1pt"> (4)
+              <fo:table-cell width="30mm" border-style="solid" border-width="1pt"> 
                 <fo:block> <xsl:value-of select="normalize-space(address)"/></fo:block>                         
               </fo:table-cell>                         
-            </fo:table-row>                                                 (3)
+            </fo:table-row>                                                 
             <fo:table-row>
-              <fo:table-cell border-style="solid" border-width="1pt">      (5)
+              <fo:table-cell border-style="solid" border-width="1pt">     
                 <fo:block> 1. Zelle</fo:block>
               </fo:table-cell>
             
